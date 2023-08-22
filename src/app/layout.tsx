@@ -1,6 +1,6 @@
 "use client";
 import "./globals.css";
-import CssBaseline from "@mui/material/CssBaseline";
+// import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { Inter } from "next/font/google";
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider theme={darkTheme}>
-          <CssBaseline />
+          {/*<CssBaseline />*/}
           {children}
         </ThemeProvider>
       </body>
